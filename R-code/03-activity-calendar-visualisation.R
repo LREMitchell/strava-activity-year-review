@@ -71,7 +71,6 @@ calendar_data <-
   ungroup() %>% 
   mutate(wday = factor(wday, levels = weekdays),
          text_month = factor(text_month, levels = months),
-         distance_km = replace_na(distance_km, 0),
          activity_type = if_else(distance_km > 0, "Run", "No Run"))
 
 
