@@ -6,3 +6,7 @@ In order to run the code in this repository, a Strava activity file is required.
 https://support.strava.com/hc/en-us/articles/216918437-Exporting-your-Data-and-Bulk-Export
 
 This will return a zip file containing a .csv file titled 'activities'.
+
+## The final output
+After running each of the R scripts, a summary visualisation similar to the plot below will be produced.
+![Example of final output](output/strava-activity-year-review-plot.png)
